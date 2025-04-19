@@ -1,0 +1,41 @@
+git for windows
+
+https://git-scm.com/downloads/win
+
+git --version
+git version 2.49.0.windows.1
+
+git bash : unix type commands
+
+git : lists all the git commands
+
+1) create repository on github
+2) Download on local
+git clone https://github.com/devendra2689/financeproject.git
+3) go to repository
+4) git status
+    => If I add a new file then it shows as untracked
+    => If I modify an existing file, then it shows modified
+
+1. make chnages to existing files / add new files (unstaged)
+2. we have to stage the changes (so that they are to be committed)
+3. we can commit all the staged changes
+
+git add .
+git status
+git commit -m "making changes to readme and adding transformation file"
+
+git config --global user.email "devendra2689@gmail.com"
+git config --global user.name "devendra2689"
+git config --global init.defaultBranch master
+git branch -m main
+
+git push origin main
+
+clear
+ls -a
+
+.git
+
+git init
+
